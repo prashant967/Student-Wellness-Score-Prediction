@@ -42,7 +42,9 @@ class PredictionResponse(BaseModel):
     #6.777777 -> float
 
 
-
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
 
 @app.get('/')
 def greet():
