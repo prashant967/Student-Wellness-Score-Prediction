@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = "http://127.0.0.1:8000"; //change this to your backend URL if different
+  const API_BASE = "https://student-wellness-score-prediction.onrender.com"; //change this to your backend URL if different
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
